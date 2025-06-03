@@ -178,14 +178,50 @@
                 "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbEc5in9iE7uG5-GY88HcIklKBrdcnFlUwXmLnilyGHwiXaV_BxAPm0YWSxuegx5en9JqtzLvuM_LVYoHxhfWo464boDHTghiTgly8kKcZ9AH7TzjzrLhpDzChGHEhs6Y6xo8WyeWdbai0O8b1Ix7J_3.jpg?r=729"
             },
             {
-                "title": "Kingdom of planet of the apes",
+                "title": "Senna",
                 "year": "2025",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
+                "image": "https://resizing.flixster.com/eepYyv4HT8sPTp8hYoYqtD25phQ=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8542641_v_h9_an.jpg"
+            },
+            {
+                "title": "Schumacher",
+                "year": "2019",
+                "image": "https://fwcdn.pl/fpo/13/45/841345/7970628_1.3.jpg"
+            },
+            {
+                "title": "Drive to survive Season 6",
+                "year": "2001",
+                "image": "https://m.media-amazon.com/images/M/MV5BYzc5OTFlODItMDM1Yy00NDM3LWFlOTEtNGEwNTg5OWFmMDhiXkEyXkFqcGc@._V1_.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "TYPE_D",
+        "title": "Upcoming TV Shows",
+        "data": [
+            {
+                "title": "Black Mirror",
+                "year": "2025",
+                "image": "https://resizing.flixster.com/yL-MXHM_ttXdnKBofDnTdOQf_WE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmQ5YTcxMDgtZWI5My00MmQzLWI1OGMtNTI0Zjk1NGYyYTBhLmpwZw=="
+            },
+            {
+                "title": "Game of Thrones",
+                "year": "2016",
+                "image": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+            }, {
+                "title": "The Penguin",
+                "year": "2025",
+                "image": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/5756c2bf-36f8-4890-b1f9-ef168f1d8e9c/a860d3eb-21f4-11f0-87de-12d2ff7fc15d?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=1024&w=1024"
+            },
+            {
+                "title": "The Gentleman",
+                "year": "2025",
+                "image": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABSabh7eMvWwsI1wDhPTqiqIP5I_pXZrke2DwY8PWv3hsADLRcapfJSRcsrF-PqTWL1C_KoULmzzk1lo7S432fqEfirI5alz0ZowNay2qI9sCyfx9PYaIko5aj_b7hCwWMFLkKA.webp?r=0ad"
             },
             {
                 "title": "One Piece",
                 "year": "2025",
-                "image": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
+                "image": "https://m.media-amazon.com/images/M/MV5BYjI0YWJhZTUtMTJhNy00OTEzLThkMjItOThkMmIzMmU4YjliXkEyXkFqcGc@._V1_.jpg"
             },
             {
                 "title": "Drive to survive Season 6",
