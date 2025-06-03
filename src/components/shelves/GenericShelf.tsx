@@ -48,9 +48,9 @@ function BaseShelf<T>({
             <div
                style={{
                   display: "flex",
-                  gap: "12px",
+                  gap: "15px",
                   overflowX: "auto",
-                  padding: "10px 0",
+                  padding: "15px 0",
                }}
             >
                {items.map((item, index) => renderItem(item, index))}

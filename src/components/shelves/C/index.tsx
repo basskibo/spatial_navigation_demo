@@ -1,24 +1,6 @@
 import { useFocusable } from "@noriginmedia/norigin-spatial-navigation";
+import { ShelfProps } from "../../interfaces/interfaces";
 
-interface MatchItem {
-   team1Logo: string;
-   team2Logo: string;
-   team1Name: string;
-   team2Name: string;
-   matchDate: string;
-   matchTime: string;
-   category: string;
-   tournament: string;
-   channel: string;
-   bgColor: string;
-}
-
-interface ShelfProps {
-   item: MatchItem;
-   config: { title: string };
-   index: number;
-   parentKey: string;
-}
 
 const ShelfItemC: React.FC<ShelfProps> = ({
    item,
@@ -40,7 +22,7 @@ const ShelfItemC: React.FC<ShelfProps> = ({
          className={`focusable ${focused ? "focused" : ""}`}
          tabIndex={-1}
          style={{
-            minWidth: "300px",
+            minWidth: "420px",
             height: "180px",
             background: item.bgColor,
             border: focused ? "4px solid white" : "4px solid transparent",
@@ -52,6 +34,7 @@ const ShelfItemC: React.FC<ShelfProps> = ({
             justifyContent: "space-between",
             boxSizing: "border-box",
             fontFamily: "sans-serif",
+            textAlign: 'center',
             flexShrink: 0,
          }}
       >
@@ -65,16 +48,16 @@ const ShelfItemC: React.FC<ShelfProps> = ({
             }}
          >
             <div style={{ textAlign: "center" }}>
-               <div style={{ fontSize: "24px" }}>{item.team1Logo}</div>
+               <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team1Logo} />
                <div>{item.team1Name}</div>
             </div>
             <div style={{ fontWeight: "bold" }}>VS</div>
             <div style={{ textAlign: "center" }}>
-               <div style={{ fontSize: "24px" }}>{item.team2Logo}</div>
-               <div>{item.team2Name}</div>
+            <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team2Logo} />
+            <div>{item.team2Name}</div>
             </div>
          </div>
-         <div style={{ fontSize: "12px", marginTop: "6px" }}>
+         <div style={{ fontSize: "12px", fontWeight: 700, marginTop: "6px" }}>
             {item.matchDate} | {item.matchTime}
          </div>
          <div style={{ fontSize: "11px", opacity: 0.8 }}>{item.channel}</div>

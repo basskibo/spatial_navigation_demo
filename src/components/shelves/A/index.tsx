@@ -49,7 +49,7 @@ const ShelfItemA: React.FC<ShelfProps> = ({
             margin: "0 8px",
             flexShrink: 0,
             boxShadow: focused
-              ? "0 0 0 3px #00FFFF"
+              ? "0 0 0 5px #00FFFF"
               : "0 0 4px rgba(0, 0, 0, 0.5)",
             transition: "transform 0.2s",
             transform: focused ? "scale(1.05)" : "scale(1)",

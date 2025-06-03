@@ -1,7 +1,6 @@
 import React from "react";
 import { ShelfConfig } from "../store/shelvesSlice";
 import ShelfTypeA from "./shelves/A/ShelfTypeA";
-import ShelfTypeB from "./shelves/B/ShelfTypeB";
 import ShelfTypeC from "./shelves/C/ShelfTypeC";
 import {
    FocusContext,

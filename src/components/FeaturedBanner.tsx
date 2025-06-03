@@ -2,55 +2,66 @@ import React from "react";
 import { useFocusable } from "@noriginmedia/norigin-spatial-navigation";
 
 const FeaturedBanner: React.FC<{ parentFocusKey: string }> = ({ parentFocusKey }) => {
-   const { ref, focused } = useFocusable({
-      focusKey: `${parentFocusKey}-featured`,
-   });
+  const { ref, focused } = useFocusable({
+    focusKey: `${parentFocusKey}-featured`,
+  });
 
-   return (
+  return (
+    <div
+      ref={ref}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        height: "40vh",
+        width: "100%",
+        borderRadius: "12px",
+        overflow: "hidden",
+        marginBottom: "32px",
+        position: "relative",
+        backgroundColor: "#000",
+        backgroundImage: "linear-gradient(to right, #000 30%, transparent 70%)",
+      }}
+    >
+  
       <div
-         ref={ref}
-         style={{
-            height: "40vh",
-            backgroundSize: "100%",
-            backgroundPosition: "center",
-            borderRadius: "12px",
-            position: "relative",
-            marginBottom: "24px",
-            overflow: "hidden",
-         }}
+        style={{
+          padding: "32px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "flex-end",
+          height: "100%",
+          color: "white",
+          maxWidth: "40%",
+        }}
       >
-         <div
-            style={{
-               position: "absolute",
-               bottom: 0,
-               padding: "20px",
-               background: "linear-gradient(to top, rgba(0,0,0,0.7), transparent)",
-               color: "white",
-               width: "100%",
-            }}
-         >
-            <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>Featured Movie</h2>
-            <p>
-                Lorem ipsum ....
-            </p>
-            <button
-               style={{
-                  padding: "10px 20px",
-                  borderRadius: "6px",
-                  border: "none",
-                  backgroundColor: focused ? "#00FFFF" : "#ffffff",
-                  color: focused ? "#000000" : "#000000",
-                  fontWeight: "bold",
-                  cursor: "pointer",
-               }}
-            >
-               Watch Now
-            </button>
-            
-
-         </div>
+        <h2 style={{ fontSize: "36px", fontWeight: 700, marginBottom: "16px" }}>
+          Featured Movie
+        </h2>
+        <p style={{ fontSize: "16px", marginBottom: "24px", lineHeight: 1.5 }}>
+          A mysterious hero rises in a city of chaos. Will justice prevail?
+        </p>
+        <button
+          style={{
+            height: "60px",
+            width: "160px",
+            backgroundColor: focused ? "#0f62fe" : "rgba(51, 51, 51, 0.8)",
+            color: "#fff",
+            border: "none",
+            borderRadius: "6px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontWeight: "bold",
+            cursor: "pointer",
+            fontSize: "16px",
+            transition: "background-color 0.2s ease",
+          }}
+        >
+          ▶ Watch Now
+        </button>
       </div>
-   );
+    </div>
+  );
 };
 
 export default FeaturedBanner;

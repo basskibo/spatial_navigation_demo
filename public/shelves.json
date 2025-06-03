@@ -27,6 +27,10 @@
             {
                 "title": "HBO",
                 "img": "https://mtsdoo.com/wp-content/uploads/2023/05/Najgledanijih-10-filmova-na-HBO-MAX-u.jpg"
+            },
+            {
+                "title": "TV+",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qIXicp5Kbc1jiXzHyCoJScpfLxETD1X9lg&s"
             }
         ]
     },
@@ -63,7 +67,22 @@
             {
                 "title": "Dune: Part Two",
                 "year": "2024",
+                "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9155926_b_v10_au.jpg"
+            },
+            {
+                "title": "Court of Gold",
+                "year": "2024",
+                "image": "https://m.media-amazon.com/images/M/MV5BMWM2NGFhY2UtMzE1Ny00ZGU5LWEzODgtNmE3ZmZlYjQ4NTFkXkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+                "title": "Dune: Part Two",
+                "year": "2024",
                 "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnmq1I8uNEcSdAzeVzuF2ubkTEx-3ijg_NMM1mWNyMJC6jkJXHQtjGGzDvYHaRHfWnVhGnJEBiFu0ANYHnJCwV1OXYtnMKo-rsA0xx6x6Wlssics8Jd5H33AU0GthgGuEIJVJAlIxOKAVK8jS8J11GC1mt-Rlfq-is7sb-hdPzGfrgI6QN_i3pbHileA/s2776/dune%20part%202%20hans%20zimmer%201%20screenx.jpg"
+            },
+            {
+                "title": "kingdom of planet of the apes",
+                "year": "2025",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
             }
         ]
     },
@@ -112,6 +131,11 @@
                 "title": "Senna",
                 "year": "2023",
                 "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbEc5in9iE7uG5-GY88HcIklKBrdcnFlUwXmLnilyGHwiXaV_BxAPm0YWSxuegx5en9JqtzLvuM_LVYoHxhfWo464boDHTghiTgly8kKcZ9AH7TzjzrLhpDzChGHEhs6Y6xo8WyeWdbai0O8b1Ix7J_3.jpg?r=729"
+            },
+            {
+                "title": "kingdom of planet of the apes",
+                "year": "2025",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
             }
         ]
     }

@@ -16,7 +16,7 @@ const ShelfItemD: React.FC<Props> = ({ item, config, index, parentKey }) => {
       ref.current?.scrollIntoView({ behavior: "smooth", inline: "center" });
     },
   });
-
+  console.log(`Type D for ${config.title}`)
   return (
     <div
       ref={ref}

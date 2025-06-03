@@ -5,13 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color:  #000;
+ overflow: none;
+ scrollbar-color: #00000000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+    scroll-padding-top: 20px; /* Adjust as needed */
+  }
 
 a {
   font-weight: 500;
@@ -69,7 +73,7 @@ button:focus-visible {
 
 .focusable-root:focus {
     outline: none !important;
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: all 0.2s ease;
   }
   
@@ -81,12 +85,13 @@ button:focus-visible {
   
   .focusable[class*="-focus-"] {
     outline: 3px solid #0f62fe !important;
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: all 0.2s ease;
   }
 
   .shelfTypeContainer{
     margin-bottom: 32px;
+    margin-left: 10px;
   }
   
  

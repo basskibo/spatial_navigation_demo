@@ -1,5 +1,4 @@
 import GenericShelf from "../GenericShelf";
-import GenericShelfItem from "../GenericShelfItem";
 import { ShelfConfig } from "../../../store/shelvesSlice";
 import ShelfItemA from ".";
 
@@ -33,7 +32,6 @@ const ShelfTypeA = ({
                index={index}
             />
          )}
-         //  itemStyle={{ minWidth: "240px", height: "100px" }}
       />
    );
 };

@@ -4,18 +4,11 @@ import { ShelfConfig } from "../../../store/shelvesSlice";
 
 const ShelfTypeB = ({ config, parentKey }: { config: ShelfConfig; parentKey: string }) => {
    const loadItems = () =>
-      new Promise<string[]>((resolve, reject) => {
+      new Promise<{ title: string; img: string }[]>((resolve, reject) => {
          setTimeout(() => {
             if (config.fail) reject();
             else
-               resolve([
-                  "TRUEID +",
-                  "NOW",
-                  "FITURE",
-                  "Plern",
-                  "iQIYI",
-                  "Viu",
-               ]);
+               resolve(config.data);
          }, 500);
       });
 
@@ -24,7 +17,7 @@ const ShelfTypeB = ({ config, parentKey }: { config: ShelfConfig; parentKey: str
          config={config}
          parentKey={parentKey}
          loadItems={loadItems}
-         renderItem={(item, index) => (
+         renderItem={(item: { title: string; img? : string;}, index) => (
             <GenericShelfItem
                key={index}
                item={item}

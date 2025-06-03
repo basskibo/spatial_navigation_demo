@@ -37,7 +37,7 @@ const App: React.FC = () => {
             className="focusable-root"
             style={{
                 outline: 'none',
-                padding: "14px",
+                padding: "30px",
                minHeight: "120vh",
                width: "100%",
             }}
