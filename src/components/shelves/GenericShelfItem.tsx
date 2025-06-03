@@ -37,7 +37,7 @@ const GenericShelfItem: React.FC<ShelfItemProps> = ({
             justifyContent: "center",
             fontWeight: "bold",
             flexShrink: 0,
-            boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+            boxShadow: focused? 'shadow-glow' : "0 2px 4px rgba(0,0,0,0.3)",
          }}
       >
          {item.title}

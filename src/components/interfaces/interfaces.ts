@@ -26,3 +26,20 @@ export interface ShelfItemProps {
    index: number;
    parentKey: string;
 }
+
+export interface SingleShelfItemProps {
+    title: string;
+    img: string; 
+}
+
+
+export interface PackageShelfItemProps extends SingleShelfItemProps {
+    package_type?: string;
+}
+
+export interface PackageShelfProps {
+   item: PackageShelfItemProps;
+   config: { title: string };
+   index: number;
+   parentKey: string;
+}

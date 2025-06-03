@@ -1,6 +1,7 @@
 import GenericShelf from "../GenericShelf";
 import { ShelfConfig } from "../../../store/shelvesSlice";
 import ShelfItemA from ".";
+import { SingleShelfItemProps } from "../../interfaces/interfaces";
 
 const ShelfTypeA = ({
    config,
@@ -10,7 +11,7 @@ const ShelfTypeA = ({
    parentKey: string;
 }) => {
    const loadItems = () =>
-      new Promise<{ title: string; img: string }[]>((resolve, reject) => {
+      new Promise<SingleShelfItemProps[]>((resolve, reject) => {
          setTimeout(() => {
             if (config.fail) reject();
             else

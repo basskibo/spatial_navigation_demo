@@ -83,25 +83,48 @@
                 "title": "kingdom of planet of the apes",
                 "year": "2025",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
+            },
+            {
+                "title": "House of Dragon",
+                "year": "2023",
+                "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9798886635249/game-of-thrones-house-of-the-dragon-season-2-9798886635249_hr.jpg"
+            },
+            {
+                "title": "Spirited away",
+                "year": "2001",
+                "image": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+                "title": "Drive to survive Season 6",
+                "year": "2001",
+                "image": "https://www.autoracing1.com/wp-content/uploads/2023/f1/misc/season-6-drive-to-survive.jpg"
             }
         ]
     },
     {
         "id": 2,
         "type": "TYPE_B",
-        "title": "Apps",
+        "title": "Entairtement Hit App",
         "data": [
             {
-                "title": "HBO",
-                "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/a1/8e/1da18ede-af7f-316d-e9ae-6cf984bdd711/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png"
+                "title": "Trueid",
+                "img": "https://cdn.prod.website-files.com/65cb11ea0b2e776c9df555a2/65cb11ea0b2e776c9df55976_63ff1badb8692cc855e31fdf_62e0f925bfb103c2f07cfd7f_true-id_720x440.webp"
             },
             {
-                "title": "HBO",
-                "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/18/aa/af/18aaaff6-0ff8-98d5-ba91-6d7b00d7625d/AppIconS31-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png"
+                "title": "Fitture",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHbimms5wBvd7nKM4QSCEUIe6OTu71bBS1g&s"
             },
             {
                 "title": "Plern",
-                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYzkmm8gCxYpYWHXirPB1aCEqpjT9TwLOMw&s"
+                "img": "https://yt3.googleusercontent.com/sEc0XlZ03AaJboVs9AK-zffYgNWb48RWuhC2IABqUeRxF_9hAL6v8s0UGoRSW5sIinJdI1Bpq-Q=s900-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "title": "Plern",
+                "img": "https://play.plern.co/assets/img/content.png"
+            },
+            {
+                "title": "Viu",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXb1wsVgAXFBGwaRkm3_NQzE5A84murNIOg&s"
             }
         ],
         "some_other_data": "asdf"
@@ -115,7 +138,29 @@
     {
         "id": 5,
         "type": "TYPE_E",
-        "title": "TRUE ID +"
+        "title": "Buy Premium Package",
+        "data" : [
+            {
+                "title": "TVS Now Max",
+                "package_type": "Premium Package",
+                "img": "https://truevisions.co.th/assets/thumbnail/23415/O2eA-V0Fy3-600.jpeg"
+            },
+            {
+                "title": "TVS Now Plus",
+                "package_type": "Plus Package",
+                "img": "https://ui.dmpcdn.com/tvbox-web-cdn/imgs/banners/pack-tvs-now-gold-banner-vertical-large-002.webp"
+            },
+            {
+                "title": "TVS Now Pop",
+                "package_type": "Basic Package",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDG-v4IxtP4nMvKuY5a7LeT-qSuvj_T71hjhrrOiKW83LstedInu5cvIT2BLTxjqlI74&usqp=CAU"
+            },
+            {
+                "title": "TVS Now Prime",
+                "package_type": "Plus Package",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4SfB261o3RR1nM2Ke3zXIrVkCtEWjSy98Q&s"
+            }
+        ]
     },
     {
         "id": 6,
@@ -133,9 +178,19 @@
                 "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbEc5in9iE7uG5-GY88HcIklKBrdcnFlUwXmLnilyGHwiXaV_BxAPm0YWSxuegx5en9JqtzLvuM_LVYoHxhfWo464boDHTghiTgly8kKcZ9AH7TzjzrLhpDzChGHEhs6Y6xo8WyeWdbai0O8b1Ix7J_3.jpg?r=729"
             },
             {
-                "title": "kingdom of planet of the apes",
+                "title": "Kingdom of planet of the apes",
                 "year": "2025",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
+            },
+            {
+                "title": "One Piece",
+                "year": "2025",
+                "image": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
+            },
+            {
+                "title": "Drive to survive Season 6",
+                "year": "2001",
+                "image": "https://www.autoracing1.com/wp-content/uploads/2023/f1/misc/season-6-drive-to-survive.jpg"
             }
         ]
     }

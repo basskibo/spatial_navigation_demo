@@ -3,6 +3,7 @@ import React from "react";
 import BaseShelf from "../GenericShelf";
 import ShelfItemD from ".";
 import { ShelfConfig } from "../../../store/shelvesSlice";
+import { SingleShelfItemProps } from "../../interfaces/interfaces";
 
 interface Props {
    config: ShelfConfig;
@@ -11,9 +12,9 @@ interface Props {
 
 const ShelfTypeE: React.FC<Props> = ({ config, parentKey }) => {
    const loadItems = () => {
-      return new Promise<string[]>((resolve) => {
+      return new Promise<SingleShelfItemProps[]>((resolve) => {
          setTimeout(() => {
-            resolve(["Discovery+", "Paramount+", "HBO Go", "Crave", "Peacock"]);
+            resolve(config.data);
          }, 500);
       });
    };
