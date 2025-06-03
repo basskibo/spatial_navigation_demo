@@ -65,14 +65,19 @@
                 "image": "https://m.media-amazon.com/images/M/MV5BMWM2NGFhY2UtMzE1Ny00ZGU5LWEzODgtNmE3ZmZlYjQ4NTFkXkEyXkFqcGc@._V1_.jpg"
             },
             {
+                "title": "Last of Us",
+                "year": "2001",
+                "image": "https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg"
+            },
+            {
                 "title": "Dune: Part Two",
                 "year": "2024",
                 "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9155926_b_v10_au.jpg"
             },
             {
-                "title": "Court of Gold",
-                "year": "2024",
-                "image": "https://m.media-amazon.com/images/M/MV5BMWM2NGFhY2UtMzE1Ny00ZGU5LWEzODgtNmE3ZmZlYjQ4NTFkXkEyXkFqcGc@._V1_.jpg"
+                "title": "Tokyo Vice",
+                "year": "2021",
+                "image": "https://m.media-amazon.com/images/M/MV5BYjkxMjU2ODUtNzdlZi00NDg0LWEyZDgtZGE3NTVkNDYyZjIzXkEyXkFqcGc@._V1_.jpg"
             },
             {
                 "title": "Dune: Part Two",
@@ -83,6 +88,11 @@
                 "title": "kingdom of planet of the apes",
                 "year": "2025",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f8URZAfIHpBDYmsPVj_KCv0E2FjPmvg9Bg&s"
+            },   
+            {
+                "title": "Attack on Titan",
+                "year": "2025",
+                "image": "https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
             },
             {
                 "title": "House of Dragon",
@@ -133,13 +143,86 @@
         "id": 3,
         "type": "TYPE_C",
         "title": "Upcoming matches",
-        "some_other_data": "1234"
+        "data": [
+            {
+                "team1Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                "team2Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/640px-FC_Barcelona_%28crest%29.svg.png",
+                "team1Name": "Manchester United",
+                "team2Name": "Barcelona",
+                "matchDate": "27 April",
+                "matchTime": "09:30",
+                "category": "UCL",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#242424"
+            },
+            {
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2024/02/Borussia-Dortmund-Logo-football-Bundesliga-transparent-PNG-image-jpg.webp",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2024/01/Bayern-Munich-Logo-football-Bundesliga-transparent-PNG-image-jpg.webp",
+                "team1Name": "Borusia Dortmund",
+                "team2Name": "Bayern Munich",
+                "matchDate": "28 April",
+                "matchTime": "05:00",
+                "category": "WOMEN",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#FF3F33"
+            },
+            {
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2023/12/Juventus-Logo-emblem-of-the-football-club-transparent-png-image-jpg.webp",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2023/12/AS-Roma-Logo-emblem-of-the-football-club-transparent-png-image-jpg.webp",
+                "team1Name": "Juventus",
+                "team2Name": "Roma",
+                "matchDate": "28 April",
+                "matchTime": "21:00",
+                "category": "MEN",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#075B5E"
+            },
+            {
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2025/04/Bayer-Leverkusen-Logo-German-Football.webp",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/05/Nottingham-Forest-Logo-English-Football.webp",
+                "team1Name": "Bayer Leverkusen",
+                "team2Name": "Nottingham Forest",
+                "matchDate": "28 April",
+                "matchTime": "20:30",
+                "category": "MEN",
+                "tournament": "VTL 2025-25",
+                "channel": "true sports 1",
+                "bgColor": "#242424"
+            },
+            {
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2025/05/Benfica-Logo-Portuguese-Football-Club-Emblem.webp",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/04/Arsenal-FC-Logo-Premier-League-Football-Club.webp",
+                "team1Name": "Benfica",
+                "team2Name": "Arsenal",
+                "matchDate": "28 April",
+                "matchTime": "09:30",
+                "category": "MEN",
+                "tournament": "VTL 2025-25",
+                "channel": "true sports 3",
+                "bgColor": "#242424"
+            },
+            {
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2025/04/New-York-Knicks-Basketball-Team-Logo-NBA.webp",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/04/Philadelphia-76ers-Logo-NBA-Team-Transparent.webp",
+                "team1Name": "New York Knicks",
+                "team2Name": "Philadelphia",
+                "matchDate": "28 April",
+                "matchTime": "09:30",
+                "category": "MEN",
+                "tournament": "VTL 2025-25",
+                "channel": "true sports 2",
+                "bgColor": "#EA7300"
+            }
+        ]
     },
     {
         "id": 5,
         "type": "TYPE_E",
         "title": "Buy Premium Package",
-        "data" : [
+        "data": [
             {
                 "title": "TVS Now Max",
                 "package_type": "Premium Package",
@@ -208,7 +291,8 @@
                 "title": "Game of Thrones",
                 "year": "2016",
                 "image": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-            }, {
+            },
+            {
                 "title": "The Penguin",
                 "year": "2025",
                 "image": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/5756c2bf-36f8-4890-b1f9-ef168f1d8e9c/a860d3eb-21f4-11f0-87de-12d2ff7fc15d?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=1024&w=1024"
@@ -224,9 +308,57 @@
                 "image": "https://m.media-amazon.com/images/M/MV5BYjI0YWJhZTUtMTJhNy00OTEzLThkMjItOThkMmIzMmU4YjliXkEyXkFqcGc@._V1_.jpg"
             },
             {
-                "title": "Drive to survive Season 6",
+                "title": "Rick and Morty Season 8",
                 "year": "2001",
-                "image": "https://www.autoracing1.com/wp-content/uploads/2023/f1/misc/season-6-drive-to-survive.jpg"
+                "image": "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-1155423,resizemode-75,msid-121407966/news/international/us/rick-and-morty-season-8-arrives-with-late-night-chaos-heres-where-to-watch-it-online-for-free.jpg"
+            },
+            {
+                "title": "The Glass Dome",
+                "year": "2001",
+                "image": "https://m.media-amazon.com/images/M/MV5BMmFlZjJmMDYtYzY1Ni00NWU4LWJjNTItOWEwYjk3Y2ViOTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "TYPE_C",
+        "title": "Clubs you follow",
+        "data": [
+            {
+                "team1Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                "team2Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/640px-FC_Barcelona_%28crest%29.svg.png",
+                "team1Name": "Manchester United",
+                "team2Name": "Barcelona",
+                "matchDate": "27 April",
+                "matchTime": "09:30",
+                "category": "UCL",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#242424"
+            },
+            {
+                "team1Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/05/Nottingham-Forest-Logo-English-Football.webp",
+                "team1Name": "Manchester United",
+                "team2Name": "Barcelona",
+                "matchDate": "27 April",
+                "matchTime": "09:30",
+                "category": "UCL",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#242424"
+            },
+            {
+                "team2Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                "team1Logo": "https://pngdownload.io/wp-content/uploads/2023/12/AS-Roma-Logo-emblem-of-the-football-club-transparent-png-image-jpg.webp",
+                "team2Name": "Manchester United",
+                "team1Name": "Roma",
+                "matchDate": "17 April",
+                "matchTime": "16:30",
+                "category": "UCL",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#242424"
             }
         ]
     }
