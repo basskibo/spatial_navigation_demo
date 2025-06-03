@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "type": "TYPE_A",
+        "title": "TV Apps",
+        "data": [
+            {
+                "title": "Google Play Store",
+                "img": "https://www.internetmatters.org/wp-content/uploads/2024/10/google_play_image-1.png"
+            },
+            {
+                "title": "Netflix",
+                "img": "https://store-images.s-microsoft.com/image/apps.56161.9007199266246365.1d5a6a53-3c49-4f80-95d7-78d76b0e05d0.a3e87fea-e03e-4c0a-8f26-9ecef205fa7b"
+            },
+            {
+                "title": "Prime Video",
+                "img": "https://m.media-amazon.com/images/G/01/support_images/GUID-A5E374A8-16DA-4B39-8E3F-3F3B34E831FB=2=en-US=Normal.png"
+            },
+            {
+                "title": "YouTube",
+                "img": "https://www.youtube.com/img/desktop/yt_1200.png"
+            },
+            {
+                "title": "YouTube Music",
+                "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/fc/4a/f8fc4a3b-1b69-31f7-aa4f-1827a0cd37e7/logo_youtube_music_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/1200x630wa.png"
+            },
+            {
+                "title": "HBO",
+                "img": "https://mtsdoo.com/wp-content/uploads/2023/05/Najgledanijih-10-filmova-na-HBO-MAX-u.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "TYPE_D",
+        "title": "Now Trending",
+        "data": [
+            {
+                "title": "Formula 1: Drive to Survive",
+                "year": "2025",
+                "image": "https://www.knjizare-vulkan.rs/files/watermark/files/images/slike_proizvoda/thumbs_w/381786_w_0_0px.jpg"
+            },
+            {
+                "title": "Senna",
+                "year": "2023",
+                "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbEc5in9iE7uG5-GY88HcIklKBrdcnFlUwXmLnilyGHwiXaV_BxAPm0YWSxuegx5en9JqtzLvuM_LVYoHxhfWo464boDHTghiTgly8kKcZ9AH7TzjzrLhpDzChGHEhs6Y6xo8WyeWdbai0O8b1Ix7J_3.jpg?r=729"
+            },
+            {
+                "title": "Oppenheimer",
+                "year": "2023",
+                "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg"
+            },
+            {
+                "title": "White Lotus",
+                "year": "2023",
+                "image": "https://i.ytimg.com/vi/j9M83t2peV4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFogZShNMA8=&rs=AOn4CLCdSp65Aary71JHcn5dj-FFCStg7A"
+            },
+            {
+                "title": "Court of Gold",
+                "year": "2024",
+                "image": "https://m.media-amazon.com/images/M/MV5BMWM2NGFhY2UtMzE1Ny00ZGU5LWEzODgtNmE3ZmZlYjQ4NTFkXkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+                "title": "Dune: Part Two",
+                "year": "2024",
+                "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnmq1I8uNEcSdAzeVzuF2ubkTEx-3ijg_NMM1mWNyMJC6jkJXHQtjGGzDvYHaRHfWnVhGnJEBiFu0ANYHnJCwV1OXYtnMKo-rsA0xx6x6Wlssics8Jd5H33AU0GthgGuEIJVJAlIxOKAVK8jS8J11GC1mt-Rlfq-is7sb-hdPzGfrgI6QN_i3pbHileA/s2776/dune%20part%202%20hans%20zimmer%201%20screenx.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "TYPE_B",
+        "title": "Apps",
+        "data": [
+            {
+                "title": "HBO",
+                "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/a1/8e/1da18ede-af7f-316d-e9ae-6cf984bdd711/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png"
+            },
+            {
+                "title": "HBO",
+                "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/18/aa/af/18aaaff6-0ff8-98d5-ba91-6d7b00d7625d/AppIconS31-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png"
+            },
+            {
+                "title": "Plern",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYzkmm8gCxYpYWHXirPB1aCEqpjT9TwLOMw&s"
+            }
+        ],
+        "some_other_data": "asdf"
+    },
+    {
+        "id": 3,
+        "type": "TYPE_C",
+        "title": "Upcoming matches",
+        "some_other_data": "1234"
+    },
+    {
+        "id": 5,
+        "type": "TYPE_E",
+        "title": "TRUE ID +"
+    },
+    {
+        "id": 6,
+        "type": "TYPE_D",
+        "title": "F1 Shows",
+        "data": [
+            {
+                "title": "Formula 1: Drive to Survive",
+                "year": "2025",
+                "image": "https://www.knjizare-vulkan.rs/files/watermark/files/images/slike_proizvoda/thumbs_w/381786_w_0_0px.jpg"
+            },
+            {
+                "title": "Senna",
+                "year": "2023",
+                "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbEc5in9iE7uG5-GY88HcIklKBrdcnFlUwXmLnilyGHwiXaV_BxAPm0YWSxuegx5en9JqtzLvuM_LVYoHxhfWo464boDHTghiTgly8kKcZ9AH7TzjzrLhpDzChGHEhs6Y6xo8WyeWdbai0O8b1Ix7J_3.jpg?r=729"
+            }
+        ]
+    }
+]
