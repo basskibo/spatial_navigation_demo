@@ -29,7 +29,7 @@ const ShelfItemE: React.FC<PackageShelfProps> = ({
          className={`focusable ${focused ? "focused" : ""}`}
          tabIndex={-1}
          style={{
-            minWidth: "320px",
+            minWidth: "520px",
             height: "240px",
             background: focused
                ? "linear-gradient(135deg, #8a2be2, #4b0082)"
