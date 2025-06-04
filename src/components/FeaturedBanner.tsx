@@ -5,6 +5,9 @@ const FeaturedBanner: React.FC<{ parentFocusKey: string }> = ({ parentFocusKey }
   const { ref, focused } = useFocusable({
     focusKey: `${parentFocusKey}-featured`,
   });
+  const isTV =
+  /Tizen|Web0S|SmartTV|TV/.test(navigator.userAgent) || 
+  (navigator.userAgent.includes("SMART-TV") || navigator.userAgent.includes("HbbTV") || navigator.userAgent.includes("VIDAA"));
 
   return (
     <div
@@ -39,6 +42,7 @@ const FeaturedBanner: React.FC<{ parentFocusKey: string }> = ({ parentFocusKey }
         </h2>
         <p style={{ fontSize: "16px", marginBottom: "24px", lineHeight: 1.5 }}>
           A mysterious hero rises in a city of chaos. Will justice prevail?
+          User agent {navigator.userAgent} - is TV: {isTV}
         </p>
         <button
           style={{
