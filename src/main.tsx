@@ -12,9 +12,9 @@ const isTV =
 
    console.log('Navigator agetn ', navigator.userAgent)
 init({
-   debug: false,
-   visualDebug: false,
-   nativeMode: isTV,
+   debug: true,
+   visualDebug: true,
+   nativeMode: true,
    throttle: 50,
    useGetBoundingClientRect: true,
    shouldFocusDOMNode: true,
@@ -23,11 +23,15 @@ init({
 });
 
 document.addEventListener('keydown', (e) => {
+    console.log("Key pressed:", e.key, "KeyCode:", e.keyCode);
+
     if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
       e.preventDefault();
     }
   }, { passive: false });
   
+
+
 createRoot(document.getElementById("root")!).render(
    <StrictMode>
       <Provider store={store}>
