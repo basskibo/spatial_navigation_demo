@@ -1,31 +1,31 @@
-import GenericShelf from "../GenericShelf";
+// ShelfTypeC.tsx
+import React, { memo } from "react";
+import BaseShelf from "../BaseShelf";
+import ShelfItemC from "./MatchShelfItem";
 import { ShelfConfig } from "../../../store/shelvesSlice";
-import ShelfItemA from ".";
-import { SingleShelfItemProps } from "../../interfaces/interfaces";
+import { MatchItem } from "../../interfaces/interfaces";
 
-const ShelfTypeA = ({
-   config,
-   parentKey,
-}: {
+interface Props {
    config: ShelfConfig;
    parentKey: string;
-}) => {
-   const loadItems = () =>
-      new Promise<SingleShelfItemProps[]>((resolve, reject) => {
+}
+
+const MatchShelf: React.FC<Props> = ({ config, parentKey }) => {
+   const loadItems = () => {
+      return new Promise<MatchItem[]>((resolve) => {
          setTimeout(() => {
-            if (config.fail) reject();
-            else
-               resolve(config.data);
+            resolve(config.data);
          }, 500);
       });
+   };
 
    return (
-      <GenericShelf
+      <BaseShelf
          config={config}
          parentKey={parentKey}
          loadItems={loadItems}
          renderItem={(item, index) => (
-            <ShelfItemA
+            <ShelfItemC
                key={index}
                item={item}
                config={config}
@@ -37,4 +37,4 @@ const ShelfTypeA = ({
    );
 };
 
-export default ShelfTypeA;
+export default memo(MatchShelf);

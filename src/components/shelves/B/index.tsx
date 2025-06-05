@@ -1,5 +1,6 @@
 import { useFocusable } from "@noriginmedia/norigin-spatial-navigation";
-import { useEffect } from "react";
+import { memo, useEffect } from "react";
+import { scrollIntoViewConfig } from "../../../config/configuration";
 
 interface ShelfProps {
    item: string;
@@ -20,11 +21,7 @@ const ShelfItemB: React.FC<ShelfProps> = ({
    const { ref, focused } = useFocusable({
       focusKey: `${parentKey}-item-${index}`,
       onFocus: () => {
-         ref.current?.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest",
-            inline: "center",
-         });
+         ref.current?.scrollIntoView(scrollIntoViewConfig);
          console.log(`Focused: ${config.title}-item-${index}`);
       },
       extraProps: {},
@@ -34,11 +31,7 @@ const ShelfItemB: React.FC<ShelfProps> = ({
       console.log(`Item ${index} focused:`, focused);
 
       if (focused && ref.current) {
-         ref.current.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest",
-            inline: "center",
-         });
+         ref.current.scrollIntoView(scrollIntoViewConfig);
       }
    }, [focused]);
 
@@ -48,8 +41,8 @@ const ShelfItemB: React.FC<ShelfProps> = ({
          tabIndex={-1}
          className='focusable'
          style={{
-            minWidth: "320px",
-            height: "160px",
+            minWidth: "32vh",
+            height: "32vh",
             backgroundColor: focused ? "#0f62fe" : "#333",
             color: "#fff",
             borderRadius: "12px",
@@ -58,7 +51,7 @@ const ShelfItemB: React.FC<ShelfProps> = ({
             justifyContent: "center",
             fontWeight: "bold",
             flexShrink: 0,
-            boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+            // boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
          }}
       >
          {item}
@@ -66,4 +59,4 @@ const ShelfItemB: React.FC<ShelfProps> = ({
    );
 };
 
-export default ShelfItemB;
+export default memo(ShelfItemB);

@@ -6,13 +6,14 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color:  #000;
- overflow: none;
+ overflow: hidden;
  scrollbar-color: #00000000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body{
     background-color:  #000;
 }
@@ -55,7 +56,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #00FFFF;
 }
 button:focus,
 button:focus-visible {
@@ -81,11 +82,6 @@ button:focus-visible {
     transition: all 0.2s ease;
   }
   
-  .focusable {
-    
-    cursor: pointer; /* Enable mouse interaction */
-    user-select: none; /* Prevent text selection */
-  }
   
   .focusable[class*="-focus-"] {
     outline: 3px solid #0f62fe !important;
@@ -94,14 +90,7 @@ button:focus-visible {
   }
 
   .shelfTypeContainer{
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     margin-left: 10px;
   }
   
-  .shadow-glow{
-    box-shadow:
-    0 0 60px 30px #fff,  /* inner white */
-    0 0 100px 60px #f0f, /* middle magenta */
-    0 0 140px 90px #0ff; /* outer cyan */
-  }
- 

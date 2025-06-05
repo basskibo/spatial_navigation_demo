@@ -1,23 +1,24 @@
-// ShelfTypeC.tsx
-import React from "react";
-import BaseShelf from "../GenericShelf";
-import ShelfItemD from ".";
+import { memo } from "react";
 import { ShelfConfig } from "../../../store/shelvesSlice";
+import ShelfItemA from "./AppsShelfItem";
 import { SingleShelfItemProps } from "../../interfaces/interfaces";
+import BaseShelf from "../BaseShelf";
 
-interface Props {
+const ShelfTypeA = ({
+   config,
+   parentKey,
+}: {
    config: ShelfConfig;
    parentKey: string;
-}
-
-const ShelfTypeE: React.FC<Props> = ({ config, parentKey }) => {
-   const loadItems = () => {
-      return new Promise<SingleShelfItemProps[]>((resolve) => {
+}) => {
+   const loadItems = () =>
+      new Promise<SingleShelfItemProps[]>((resolve, reject) => {
          setTimeout(() => {
-            resolve(config.data);
+            if (config.fail) reject();
+            else
+               resolve(config.data);
          }, 500);
       });
-   };
 
    return (
       <BaseShelf
@@ -25,7 +26,7 @@ const ShelfTypeE: React.FC<Props> = ({ config, parentKey }) => {
          parentKey={parentKey}
          loadItems={loadItems}
          renderItem={(item, index) => (
-            <ShelfItemD
+            <ShelfItemA
                key={index}
                item={item}
                config={config}
@@ -37,4 +38,4 @@ const ShelfTypeE: React.FC<Props> = ({ config, parentKey }) => {
    );
 };
 
-export default ShelfTypeE;
+export default memo(ShelfTypeA);

@@ -1,9 +1,6 @@
 import { useFocusable } from "@noriginmedia/norigin-spatial-navigation";
 import { PackageShelfProps } from "../../interfaces/interfaces";
-
-
-
-
+import { scrollIntoViewConfig } from "../../../config/configuration";
 
 const ShelfItemE: React.FC<PackageShelfProps> = ({
    item,
@@ -14,12 +11,8 @@ const ShelfItemE: React.FC<PackageShelfProps> = ({
    const { ref, focused } = useFocusable({
       focusKey: `${parentKey}-item-${index}`,
       onFocus: () => {
-         ref.current?.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest",
-            inline: "center",
-         });
-         console.log(config)
+         ref.current?.scrollIntoView(scrollIntoViewConfig);
+         console.log(config);
       },
    });
 
@@ -43,10 +36,10 @@ const ShelfItemE: React.FC<PackageShelfProps> = ({
             justifyContent: "center",
             fontWeight: "bold",
             flexShrink: 0,
-            boxShadow: focused ? "0 0 0 3px white" : "none",
-            transition: "all 0.2s ease",
+            // boxShadow: focused ? "0 0 0 3px white" : "none",
+            // transition: "all 0.2s ease",
             padding: "16px",
-            position: "relative",
+            // position: "relative",
             overflow: "hidden",
          }}
       >
@@ -98,6 +91,7 @@ const ShelfItemE: React.FC<PackageShelfProps> = ({
                   objectFit: "cover",
                   zIndex: 0,
                }}
+               loading="lazy"
             />
          )}
       </div>

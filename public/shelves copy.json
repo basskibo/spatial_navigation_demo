@@ -127,7 +127,7 @@
             },
             {
                 "title": "Plern",
-                "img": "https://astromedia.com.my/wp-content/uploads/2023/12/iqiyi2.png"
+                "img": "https://yt3.googleusercontent.com/sEc0XlZ03AaJboVs9AK-zffYgNWb48RWuhC2IABqUeRxF_9hAL6v8s0UGoRSW5sIinJdI1Bpq-Q=s900-c-k-c0x00ffffff-no-rj"
             },
             {
                 "title": "Plern",
@@ -136,10 +136,6 @@
             {
                 "title": "Viu",
                 "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXb1wsVgAXFBGwaRkm3_NQzE5A84murNIOg&s"
-            },
-            {
-                "title": "We TV",
-                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFV0ZZD80RICdxybXP98tYx-D_1fmz_rmFA&s"
             }
         ],
         "some_other_data": "asdf"
@@ -220,30 +216,6 @@
                 "tournament": "VTL 2025-25",
                 "channel": "true sports 2",
                 "bgColor": "#EA7300"
-            },
-            {
-                "team1Logo": "https://pngdownload.io/wp-content/uploads/2025/04/New-York-Knicks-Basketball-Team-Logo-NBA.webp",
-                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/04/Philadelphia-76ers-Logo-NBA-Team-Transparent.webp",
-                "team1Name": "New York Knicks",
-                "team2Name": "Philadelphia",
-                "matchDate": "28 April",
-                "matchTime": "09:30",
-                "category": "MEN",
-                "tournament": "VTL 2025-25",
-                "channel": "true sports 2",
-                "bgColor": "#EA7300"
-            },
-            {
-                "team1Logo": "https://pngdownload.io/wp-content/uploads/2025/04/New-York-Knicks-Basketball-Team-Logo-NBA.webp",
-                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/04/Philadelphia-76ers-Logo-NBA-Team-Transparent.webp",
-                "team1Name": "New York Knicks",
-                "team2Name": "Philadelphia",
-                "matchDate": "28 April",
-                "matchTime": "09:30",
-                "category": "MEN",
-                "tournament": "VTL 2025-25",
-                "channel": "true sports 2",
-                "bgColor": "#EA7300"
             }
         ]
     },
@@ -303,11 +275,6 @@
                 "title": "Drive to survive Season 6",
                 "year": "2001",
                 "image": "https://m.media-amazon.com/images/M/MV5BYzc5OTFlODItMDM1Yy00NDM3LWFlOTEtNGEwNTg5OWFmMDhiXkEyXkFqcGc@._V1_.jpg"
-            },
-            {
-                "title": "F!",
-                "year": "2025",
-                "image": "https://corp.formula1.com/wp-content/uploads/2025/03/F1_WBDO_FEATURED_IMAGE_MAIN_1920x1080-1.jpg"
             }
         ]
     },
@@ -350,55 +317,13 @@
                 "title": "The Glass Dome",
                 "year": "2001",
                 "image": "https://m.media-amazon.com/images/M/MV5BMmFlZjJmMDYtYzY1Ni00NWU4LWJjNTItOWEwYjk3Y2ViOTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-            },
-            {
-                "title": "Deadpool",
-                "year": "2018",
-                "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png"
             }
         ]
     },
     {
-        "id": 12,
-        "type": "TYPE_D",
-        "title": "Popular American Sitcoms",
-        "data": [
-            {
-                "title": "Friends",
-                "year": "1994",
-                "image": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-            },
-            {
-                "title": "The Office",
-                "year": "2012",
-                "image": "https://m.media-amazon.com/images/I/71CAjrSEQlL.jpg"
-            },
-            {
-                "title": "Full House",
-                "year": "1994",
-                "image": "https://m.media-amazon.com/images/M/MV5BZGQ3OTY3OGQtYzZlZS00YWZjLTgwYzMtZjg4YmY0Y2U1ZDg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-            },
-            {
-                "title": "Family Matters",
-                "year": "1989",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXrDaowmQQzTY2_ZUKe_dAV4e2OspRBmwhPw&s"
-            },
-            {
-                "title": "Nanny",
-                "year": "1989",
-                "image": "https://m.media-amazon.com/images/M/MV5BZmZmZTgxMjYtMzlkZS00OTRjLTg1ZDUtNGZkYWI5OGQyYzFlXkEyXkFqcGc@._V1_.jpg"
-            },
-            {
-                "title": "Fresh Prince from Bel Air",
-                "year": "1989",
-                "image": "https://dl6pgk4f88hky.cloudfront.net/2021/06/rehost_2f2016_2f9_2f13_2f1b5cb41f-6c9f-4862-ae3a-107fd32008ab_1_.jpg"
-            }
-        ]
-    },
-    {
-        "id": 10,
+        "id": 8,
         "type": "TYPE_C",
-        "title": "Teams you are following",
+        "title": "Clubs you follow",
         "data": [
             {
                 "team1Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
@@ -411,24 +336,18 @@
                 "tournament": "VTL 2024-25",
                 "channel": "true sports 2",
                 "bgColor": "#242424"
-            }
-        ]
-    },
-
-    {
-        "id": 13,
-        "type": "TYPE_D",
-        "title": "Popular British TV Shows",
-        "data": [
-            {
-                "title": "Only Fools and Horses",
-                "year": "1989",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqiVL-bYb16I8VZe0SPhDusGIKBjcfODUOyg&s"
             },
             {
-                "title": "The Office",
-                "year": "2008",
-                "image": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_.jpg"
+                "team1Logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                "team2Logo": "https://pngdownload.io/wp-content/uploads/2025/05/Nottingham-Forest-Logo-English-Football.webp",
+                "team1Name": "Manchester United",
+                "team2Name": "Barcelona",
+                "matchDate": "27 April",
+                "matchTime": "09:30",
+                "category": "UCL",
+                "tournament": "VTL 2024-25",
+                "channel": "true sports 2",
+                "bgColor": "#242424"
             }
         ]
     }

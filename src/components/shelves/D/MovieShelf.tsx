@@ -1,6 +1,6 @@
-import React from "react";
-import BaseShelf from "../GenericShelf";
-import ShelfItemD from ".";
+import React, {memo} from "react";
+import BaseShelf from "../BaseShelf";
+import ShelfItemD from "./MovieShelfItem";
 import { ShelfConfig } from "../../../store/shelvesSlice";
 
 interface Props {
@@ -41,4 +41,4 @@ export interface MovieItem {
   image: string;
 }
 
-export default ShelfTypeD;
+export default memo(ShelfTypeD);

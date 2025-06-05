@@ -5,20 +5,12 @@ import { ShelfItemProps } from "../interfaces/interfaces";
 
 const GenericShelfItem: React.FC<ShelfItemProps> = ({
    item,
-   config,
+   config ,
    index,
    parentKey,
 }) => {
    const { ref, focused } = useFocusable({
       focusKey: `${parentKey}-item-${index}`,
-      onFocus: () => {
-         ref.current?.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest",
-            inline: "center",
-         });
-         console.log(`Focused: ${config.title}-item-${index}`);
-      },
    });
 
    return (
@@ -37,7 +29,7 @@ const GenericShelfItem: React.FC<ShelfItemProps> = ({
             justifyContent: "center",
             fontWeight: "bold",
             flexShrink: 0,
-            boxShadow: focused? 'shadow-glow' : "0 2px 4px rgba(0,0,0,0.3)",
+            // boxShadow: focused? 'shadow-glow' : "0 2px 4px rgba(0,0,0,0.3)",
          }}
       >
          {item.title}

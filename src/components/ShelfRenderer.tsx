@@ -1,31 +1,35 @@
-import React from "react";
+import React, { memo } from "react";
 import { ShelfConfig } from "../store/shelvesSlice";
-import ShelfTypeA from "./shelves/A/ShelfTypeA";
-import ShelfTypeC from "./shelves/C/ShelfTypeC";
+import ShelfTypeA from "./shelves/A/AppsShelf";
+import ShelfTypeC from "./shelves/C/MatchShelf";
 import {
    FocusContext,
    useFocusable,
 } from "@noriginmedia/norigin-spatial-navigation";
-import ShelfTypeD from "./shelves/D/ShelfTypeD";
-import ShelfTypeE from "./shelves/E/ShelfTypeE";
+import ShelfTypeD from "./shelves/D/MovieShelf";
+import ShelfTypeE from "./shelves/E/PackageShelf";
+import FeaturedBanner from "./FeaturedBanner";
 
 interface Props {
    config: ShelfConfig;
    parentFocusKey: string;
 }
-const ShelfRenderer: React.FC<Props> = ({ config, parentFocusKey }) => {
+const ShelfRenderer: React.FC<Props> = memo(({ config, parentFocusKey }) => {
    const { ref, focusKey } = useFocusable({
       focusKey: `${parentFocusKey}-${config.id}`,
       isFocusBoundary: false, // Changed from true to false
-      saveLastFocusedChild: true,
+      saveLastFocusedChild: false,
    });
-   console.log(`##### ShelfRenderer: ${parentFocusKey}-shelf-${config.id}`);
+   //    console.log(`##### ShelfRenderer: ${parentFocusKey}-shelf-${config.id}`);
 
    return (
       <FocusContext.Provider value={focusKey}>
          <div ref={ref}>
             {(() => {
                switch (config.type) {
+                  case "FEATURED":
+                    console.log(`>>>${focusKey}-FEATURED`)
+                     return <FeaturedBanner parentKey={focusKey} />;
                   case "TYPE_A":
                      return (
                         <ShelfTypeA
@@ -58,7 +62,7 @@ const ShelfRenderer: React.FC<Props> = ({ config, parentFocusKey }) => {
                            key={`${focusKey}-typeD`}
                         />
                      );
-                    case "TYPE_E":
+                  case "TYPE_E":
                      return (
                         <ShelfTypeE
                            config={config}
@@ -74,6 +78,6 @@ const ShelfRenderer: React.FC<Props> = ({ config, parentFocusKey }) => {
          </div>
       </FocusContext.Provider>
    );
-};
+});
 
-export default React.memo(ShelfRenderer);
+export default ShelfRenderer;

@@ -1,5 +1,7 @@
 import { useFocusable } from "@noriginmedia/norigin-spatial-navigation";
 import { ShelfProps } from "../../interfaces/interfaces";
+import { scrollIntoViewConfig } from "../../../config/configuration";
+import { memo } from "react";
 
 
 const ShelfItemC: React.FC<ShelfProps> = ({
@@ -11,11 +13,12 @@ const ShelfItemC: React.FC<ShelfProps> = ({
    const { ref, focused } = useFocusable({
       focusKey: `${parentKey}-item-${index}`,
       onFocus: () => {
-         ref.current?.scrollIntoView({ behavior: "smooth", inline: "center" });
+         ref.current?.scrollIntoView(scrollIntoViewConfig);
          console.log(`Focused: ${config.title}-item-${index}`);
       },
    });
 
+   
    return (
       <div
          ref={ref}
@@ -48,12 +51,12 @@ const ShelfItemC: React.FC<ShelfProps> = ({
             }}
          >
             <div style={{ textAlign: "center" }}>
-               <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team1Logo} />
+               <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team1Logo} loading="lazy" />
                <div>{item.team1Name}</div>
             </div>
             <div style={{ fontWeight: "bold" }}>VS</div>
             <div style={{ textAlign: "center" }}>
-            <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team2Logo} />
+            <img style={{ fontSize: "12px" , height: 48, width:48 }} src={item.team2Logo} loading="lazy"/>
             <div>{item.team2Name}</div>
             </div>
          </div>
@@ -65,4 +68,4 @@ const ShelfItemC: React.FC<ShelfProps> = ({
    );
 };
 
-export default ShelfItemC;
+export default memo(ShelfItemC);

@@ -1,6 +1,8 @@
-import GenericShelf from "../GenericShelf";
+import GenericShelf from "../BaseShelf";
 import GenericShelfItem from "../GenericShelfItem";
 import { ShelfConfig } from "../../../store/shelvesSlice";
+import BaseShelf from "../BaseShelf";
+import { memo } from "react";
 
 const ShelfTypeB = ({ config, parentKey }: { config: ShelfConfig; parentKey: string }) => {
    const loadItems = () =>
@@ -13,7 +15,7 @@ const ShelfTypeB = ({ config, parentKey }: { config: ShelfConfig; parentKey: str
       });
 
    return (
-      <GenericShelf
+      <BaseShelf
          config={config}
          parentKey={parentKey}
          loadItems={loadItems}
@@ -30,4 +32,4 @@ const ShelfTypeB = ({ config, parentKey }: { config: ShelfConfig; parentKey: str
    );
 };
 
-export default ShelfTypeB;
+export default  memo(ShelfTypeB);

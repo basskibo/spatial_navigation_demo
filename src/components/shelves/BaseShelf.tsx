@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState, useContext, memo } from "react";
 import {
    FocusContext,
    useFocusable,
@@ -48,9 +48,10 @@ function BaseShelf<T>({
             <div
                style={{
                   display: "flex",
-                  gap: "15px",
+                  gap: 36,
                   overflowX: "auto",
                   padding: "15px 0",
+                  height: '100%' 
                }}
             >
                {items.map((item, index) => renderItem(item, index))}
@@ -60,4 +61,4 @@ function BaseShelf<T>({
    );
 }
 
-export default BaseShelf;
+export default memo(BaseShelf);
